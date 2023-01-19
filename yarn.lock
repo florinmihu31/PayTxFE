@@ -267,6 +267,17 @@
     keccak "3.0.2"
     protobufjs "6.11.3"
 
+"@multiversx/sdk-network-providers@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@multiversx/sdk-network-providers/-/sdk-network-providers-1.2.1.tgz#d1ae33ae30b93b8d8f0b87cefe8315ffefef39ef"
+  integrity sha512-hRCuoOf9Kh9qArsCPWUrVn45lTWzFloLK0F9f4vNh3WWw4SplfFE/G4TwN8+F35IFMArvTcPibXnRzMb5z48Jw==
+  dependencies:
+    axios "0.24.0"
+    bech32 "1.1.4"
+    bignumber.js "9.0.1"
+    buffer "6.0.3"
+    json-bigint "1.0.0"
+
 "@multiversx/sdk-transaction-decoder@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@multiversx/sdk-transaction-decoder/-/sdk-transaction-decoder-1.0.2.tgz#83ded4f6d4b877b4421234856eb19709be2af31b"
@@ -756,6 +767,13 @@ asn1.js@^5.2.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
     safer-buffer "^2.1.0"
+
+axios@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
+  dependencies:
+    follow-redirects "^1.14.4"
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -1250,6 +1268,11 @@ bignumber.js@9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
   integrity sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==
+
+bignumber.js@^9.0.0:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.1.1.tgz#c4df7dc496bd849d4c9464344c1aa74228b4dac6"
+  integrity sha512-pHm4LsMJ6lzgNGVfZHjMoO8sdoRhOzOH4MLmY65Jg70bpxCKu5iOHNJyfF6OyvYw7t8Fpf35RuzUyqnQsj8Vig==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -2072,7 +2095,7 @@ find-up@^4.0.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.14.4:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
   integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
@@ -2498,6 +2521,13 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==
+
+json-bigint@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/json-bigint/-/json-bigint-1.0.0.tgz#ae547823ac0cad8398667f8cd9ef4730f5b01ff1"
+  integrity sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==
+  dependencies:
+    bignumber.js "^9.0.0"
 
 json-duplicate-key-handle@1.0.0:
   version "1.0.0"
